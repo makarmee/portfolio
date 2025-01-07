@@ -1,6 +1,7 @@
-import About from "@/components/layout/about";
-import Projects from "@/components/layout/projects";
-import Skills from "@/components/layout/skills";
+import About from "@/components/about";
+import Contacts from "@/components/contacts";
+import Projects from "@/components/projects";
+import Skills from "@/components/skills";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Contacts />
     </>
   );
 }

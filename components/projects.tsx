@@ -1,6 +1,6 @@
-import { ArrowRight } from "lucide-react";
 import React from "react";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./shared/projectCard";
+import { Heading } from "./shared/heading";
 
 export default function Projects() {
   const featuredProjects = [
@@ -61,14 +61,9 @@ export default function Projects() {
   ];
 
   return (
-    <section
-      className={
-        "flex flex-col mt-24"
-        // 'delay-100 duration-500 animate-in fade-in slide-in-from-bottom-4 fill-mode-backwards'
-      }
-    >
+    <section className="flex flex-col mt-24" id="#projects">
       <div className="flex w-full items-center justify-between">
-        <h2 className="text-xl font-medium">Projects</h2>
+        <Heading name="My Projects" />
       </div>
       <div className="grid grid-cols-1 gap-12 relative overflow-clip">
         {featuredProjects.map((item) => (

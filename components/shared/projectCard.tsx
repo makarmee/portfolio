@@ -18,18 +18,6 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => (
     key={project.id}
   >
     <div className="relative -ml-[40%] h-44 w-72 shrink-0 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:z-10 before:bg-black/20 ">
-      {/* <Image
-        title={project.name}
-        alt={project.name}
-        src={project}
-        width={1200}
-        height={630}
-        placeholder="blur"
-        objectFit="cover"
-        blurDataURL={imgSrc}
-        quality={50}
-        className="backdrop-blur-xl transition-all duration-300 lg:group-hover:scale-110"
-      /> */}
       <Image
         fill
         className="block object-cover"
@@ -48,7 +36,7 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => (
         {project.tags.map((tag, index) => (
           <span
             key={index}
-            className="bg-gray-900 px-2 py-1 text-xs text-gray-500"
+            className="bg-neutral-900 rounded-lg border-neutral-700 border px-2 py-1 text-xs text-gray-500"
           >
             {tag}
           </span>
