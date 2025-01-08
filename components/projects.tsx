@@ -61,7 +61,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="flex flex-col mt-24" id="#projects">
+    <section className="flex flex-col mt-24" id="projects">
       <div className="flex w-full items-center justify-between">
         <Heading name="My Projects" />
       </div>
