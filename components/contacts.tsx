@@ -31,7 +31,7 @@ export default async function Contacts() {
       name: "Phone",
       username: "+93773072993",
       icon: <PhoneIcon />,
-      href: "callto:+93773072993",
+      href: "tel:+93773072993",
     },
   ];
 
