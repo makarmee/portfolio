@@ -17,7 +17,7 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => (
     className="card bg-neutral-800 flex gap-10 items-center p-12 rounded-lg w-4/5 justify-self-end"
     key={project.id}
   >
-    <div className="relative -ml-[40%] h-44 w-72 shrink-0 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:z-10 before:bg-black/20 ">
+    <div className="relative -ml-[40%] h-44 w-72 shrink-0 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:z-10 before:bg-black/20">
       <Image
         fill
         className="block object-cover"
@@ -36,7 +36,7 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => (
         {project.tags.map((tag, index) => (
           <span
             key={index}
-            className="bg-neutral-900 rounded-lg border-neutral-700 border px-2 py-1 text-xs text-gray-500"
+            className="bg-neutral-900 rounded-lg border-neutral-700 border px-2 py-1 text-xs text-neutral-500"
           >
             {tag}
           </span>
@@ -47,14 +47,14 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => (
         <Link
           target="_blank"
           href={project.gitHubUrl}
-          className="text-gray-500 hover:text-white"
+          className="text-neutral-500 hover:text-white"
         >
           <GithubIcon className="h-6 w-6 transition-all hover:scale-110 active:scale-90" />
         </Link>
 
         <Link
           href={project.url}
-          className="text-gray-500 hover:text-white"
+          className="text-neutral-500 hover:text-white"
           target="_blank"
         >
           <GlobeIcon className="h-6 w-6 transition-all hover:scale-110 active:scale-90" />

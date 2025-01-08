@@ -6,12 +6,12 @@ export default function About() {
     <section className="my-24" id="about">
       <div id="heading" className="px-6 py-12 sm:py-16 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <div className="relative mx-auto mb-6 h-32 w-32 rounded-full shadow-md ring-1 ring-gray-300 overflow-hidden">
+          <div className="relative mx-auto mb-6 h-32 w-32 rounded-full shadow-md ring-1 ring-neutral-200 overflow-hidden">
             <Image
               src="/me.jpg"
               alt="avatar"
               fill
-              className="object-cover hover:"
+              className="object-cover saturate-0 hover:saturate-100 transition-all duration-700"
             />
           </div>
           <h6 className="mb-2 font-semibold">Welcome to my portfolio</h6>

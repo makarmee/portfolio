@@ -36,18 +36,12 @@ export default async function Contacts() {
   ];
 
   return (
-    <section
-      className="my-24 mx-auto max-w-md py-2 sm:max-w-xl sm:py-4"
-      id="contacts"
-    >
+    <section className="my-24 mx-auto" id="contacts">
       <div>
-        <div className="text-center">
-          <Heading name="Contact Me" />
-
-          <p className="text-sm text-zinc-600 dark:text-zinc-400">
-            Please feel free to reach out to me via email or social media.
-          </p>
-        </div>
+        <Heading name="Contact Me" />
+        <p className="text-sm text-center text-neutral-400">
+          Please feel free to reach out to me via email or social media.
+        </p>
       </div>
       <div className="mt-6">
         <ul role="list" className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -56,16 +50,15 @@ export default async function Contacts() {
               <a
                 href={item.href}
                 target="_blank"
-                rel="noopener noreferrer"
-                className="shadow-xs group flex w-full items-center justify-between space-x-3 rounded-full border border-zinc-600/20 px-4 py-2 text-left hover:bg-zinc-200/40 dark:border-zinc-700/40 dark:hover:bg-zinc-500/10"
+                className="shadow-xs group flex w-full items-center justify-between space-x-3 rounded-full border border-neutral-400/20 px-4 py-2 text-left hover:bg-neutral-600/40"
               >
                 <span className="flex min-w-0 flex-1 items-center space-x-4">
                   <span className="block shrink-0">{item.icon}</span>
                   <span className="block min-w-0 flex-1">
-                    <span className="block truncate text-sm font-semibold text-zinc-600 dark:text-zinc-400">
+                    <span className="block truncate text-sm font-semibold text-neutral-400">
                       {item.name}
                     </span>
-                    <span className="block truncate text-sm font-medium text-zinc-600 dark:text-zinc-400">
+                    <span className="block truncate text-sm font-medium text-neutral-400">
                       {item.username}
                     </span>
                   </span>
@@ -73,7 +66,7 @@ export default async function Contacts() {
                 <span className="inline-flex size-10 shrink-0 items-center justify-center">
                   <ChevronRightIcon
                     aria-hidden="true"
-                    className="size-5 text-gray-400 dark:text-gray-400/10"
+                    className="size-5 text-neutral-400"
                   />
                 </span>
               </a>

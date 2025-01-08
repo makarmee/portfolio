@@ -5,22 +5,13 @@ import { Heading } from "./shared/heading";
 export default function Projects() {
   const featuredProjects = [
     {
-      id: 1,
-      name: "Amazon",
-      description: "Amazon application made with Javascript.",
-      url: "https://amazon-mahdi.vercel.app",
-      thumbnail: "/thumbnails/amazon.png",
-      gitHubUrl: "https://www.github.com/makarmee/amazon",
-      tags: ["html", "css", "js"],
-    },
-    {
-      id: 2,
-      name: "Omnifood",
-      description: "Omnifood app made with HTML and CSS.",
-      url: "https://makarmee.github.io/Omnifood/",
-      thumbnail: "/thumbnails/omnifood.png",
-      gitHubUrl: "https://www.github.com/makarmee/omnifood",
-      tags: ["html", "css"],
+      id: 4,
+      name: "Book Store",
+      url: "https://book-store-151.vercel.app",
+      description: "a Book Selling site using Next.js and TailwindCss",
+      thumbnail: "/thumbnails/book-store.png",
+      gitHubUrl: "https://www.github.com/makarmee/bookstore",
+      tags: ["next.js", "tailwindcss"],
     },
     {
       id: 3,
@@ -30,15 +21,6 @@ export default function Projects() {
       thumbnail: "/thumbnails/desserts.png",
       gitHubUrl: "https://www.github.com/makarmee/desserts",
       tags: ["react", "tailwindcss"],
-    },
-    {
-      id: 4,
-      name: "Book Store",
-      url: "https://book-store-151.vercel.app",
-      description: "a Book Selling site using Next.js and TailwindCss",
-      thumbnail: "/thumbnails/book-store.png",
-      gitHubUrl: "https://www.github.com/makarmee/bookstore",
-      tags: ["next.js", "tailwindcss"],
     },
     {
       id: 5,
@@ -57,6 +39,24 @@ export default function Projects() {
       thumbnail: "/thumbnails/room-homepage.png",
       gitHubUrl: "https://www.github.com/makarmee/room-homepage",
       tags: ["react", "tailwindcss"],
+    },
+    {
+      id: 1,
+      name: "Amazon",
+      description: "Amazon application made with Javascript.",
+      url: "https://amazon-mahdi.vercel.app",
+      thumbnail: "/thumbnails/amazon.png",
+      gitHubUrl: "https://www.github.com/makarmee/amazon",
+      tags: ["html", "css", "js"],
+    },
+    {
+      id: 2,
+      name: "Omnifood",
+      description: "Omnifood app made with HTML and CSS.",
+      url: "https://makarmee.github.io/Omnifood/",
+      thumbnail: "/thumbnails/omnifood.png",
+      gitHubUrl: "https://www.github.com/makarmee/omnifood",
+      tags: ["html", "css"],
     },
   ];
 
