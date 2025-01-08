@@ -67,7 +67,7 @@ export default function Projects() {
       </div>
       <div className="grid grid-cols-1 gap-12 relative overflow-clip">
         {featuredProjects.map((item) => (
-          <ProjectCard project={item} />
+          <ProjectCard project={item} key={item.id} />
         ))}
       </div>
     </section>
