@@ -13,7 +13,7 @@ interface ProjectProps {
 }
 
 const ProjectCard = ({ project }: { project: ProjectProps }) => (
-  <div className="card bg-neutral-800 flex flex-col sm:flex-row sm:gap-10 gap-6 items-center px-6 pb-6 sm:p-10 rounded-lg sm:w-4/5  w-[360px] sm:max-w-none justify-self-center sm:justify-self-end">
+  <div className="card bg-neutral-800 flex flex-col sm:flex-row sm:gap-10 gap-6 items-center px-6 pb-6 sm:p-10 rounded-lg sm:w-4/5 w-[360px] sm:max-w-none justify-self-center sm:justify-self-end">
     <div className="relative sm:-ml-[40%] ml-0 sm:h-44 sm:w-72 w-64 h-40 shrink-0 sm:mt-0 -mt-16 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:z-10 before:bg-black/20">
       <Image
         fill
