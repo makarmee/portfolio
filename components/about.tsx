@@ -15,8 +15,10 @@ export default function About() {
             />
           </div>
           <h6 className="mb-2 font-semibold">Welcome to my portfolio</h6>
-          <h1 className="mb-2 text-6xl font-black">Hello, I&apos;m Mahdi.</h1>
-          <h4 className="mt-8">
+          <h1 className="mb-2 sm:text-6xl text-4xl font-black">
+            Hello, I&apos;m Mahdi.
+          </h1>
+          <h4 className="mt-4 sm:mt-8">
             I’m a Frontend developer who loves building user-friendly and pixel
             perfect websites and web applications.
           </h4>

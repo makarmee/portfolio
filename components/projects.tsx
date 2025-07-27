@@ -65,7 +65,7 @@ export default function Projects() {
       <div className="flex w-full items-center justify-between">
         <Heading name="My Projects" />
       </div>
-      <div className="grid grid-cols-1 gap-12 relative overflow-clip">
+      <div className="grid grid-cols-1 sm:pt-0 pt-16 sm:gap-12 gap-24 relative overflow-clip">
         {featuredProjects.map((item) => (
           <ProjectCard project={item} key={item.id} />
         ))}

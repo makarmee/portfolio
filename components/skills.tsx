@@ -18,7 +18,7 @@ export default function Skills() {
   return (
     <section className="mt-24" id="skills">
       <Heading name="My Skills" />
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-4 gap-2 last-child:bg-black">
         {skills.map((skill) => (
           <div
             title={skill.name}
@@ -26,7 +26,7 @@ export default function Skills() {
             className="dark:bg-darkPrimary group flex origin-center transform items-center justify-center gap-4 rounded-sm border border-neutral-600 p-4 hover:dark:bg-darkSecondary sm:justify-start md:origin-top"
           >
             <div className="pointer-events-none relative select-none transition group-hover:scale-110 sm:group-hover:scale-100">
-              <div className="relative w-8 h-8">
+              <div className="relative sm:w-8 sm:h-8 w-12 h-12">
                 <Image fill src={skill.icon} alt="icon" className="block" />
               </div>
             </div>

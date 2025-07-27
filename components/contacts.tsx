@@ -23,9 +23,9 @@ export default async function Contacts() {
     },
     {
       name: "Gmail",
-      username: "mmahdikarimi2006@gmail.com",
+      username: "makarmee@gmail.com",
       icon: <MailIcon />,
-      href: "mailto:mmahdikarimi2006@gmail.com",
+      href: "mailto:makarmee@gmail.com",
     },
     {
       name: "Phone",
@@ -44,7 +44,10 @@ export default async function Contacts() {
         </p>
       </div>
       <div className="mt-6">
-        <ul role="list" className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <ul
+          role="list"
+          className="grid grid-cols-1 sm:gap-4 gap-2 sm:grid-cols-2"
+        >
           {social.map((item, index) => (
             <li key={index}>
               <a
